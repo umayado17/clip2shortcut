@@ -1,0 +1,11 @@
+﻿Windows Registry Editor Version 5.00
+
+; エクスプローラーの背景右クリック → その他のオプション → 「URLショートカット作成」を追加
+; スクリプトの保存先: C:\Tools\CreateUrlShortcut.ps1
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\CreateUrlShortcut]
+@="URLショートカット作成"
+"Icon"="shell32.dll,14"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\CreateUrlShortcut\command]
+@="powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -File \"C:\\Tools\\CreateUrlShortcut.ps1\" -TargetFolder \"%V\""

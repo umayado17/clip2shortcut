@@ -2,6 +2,8 @@
 
 AIチャット(Claude/ChatGPT)の共有URLをワンクリックでショートカットファイル化。Win/Mac対応。
 
+![clip2shortcut](clip2shortcut.png)
+
 ## 概要
 
 クリップボードにコピーしたURLから、ページタイトルをファイル名にしたURLショートカット(.url)を
